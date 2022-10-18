@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func callLogin(_ sender: Any) {
+        let vc = LoginVC()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 
